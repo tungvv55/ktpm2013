@@ -13,7 +13,7 @@ public class TestGPTB1
 	
 	public void test2() 
 	{
-		assertEquals("",9, GPT.test(-10, 90));
+		assertEquals("",9, GPT.test(10, -90));
 	}
 
 }
