@@ -1,5 +1,6 @@
 // Test giai phuong trinh bac 1
 import static org.junit.*;
+import static org.junit.Test.*;
 
 public class TestGPTB1 
 {
