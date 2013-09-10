@@ -1,19 +1,20 @@
 //Giai phuong trinh bac 1
 public class GPTB1 
 {
-	public int test(int a, int b) 
+	public static int test(int a, int b) 
 	{
 		if((a==0)&&(b==0))
 		{
-		printf("X vo han");
+			System.out.println("X vo han");
 		}
 		else
 		{
 			if((a==0)&&(b!=0))
 			{
-				printf("Khong co x");
+				System.out.println("Khong co x");
 			}
-			return -b/a;
+			System.out.println(-b/a);
 		}
-	}
+		return 0;
+	}	
 }
